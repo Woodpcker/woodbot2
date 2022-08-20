@@ -1,5 +1,5 @@
-bot_token= "5317130561:AAH-Ki-j4F160ggA9GJnuVjMerm3wHfmO3w"
+bot_token = "5651065522:AAHXeTrhalgCpccNdcxNVu03nzJ2Hw4uqDY"
 
-app_url= "https://woodvvs.herokuapp.com/"
+app_url = "https://woodvvsbot.herokuapp.com/"
 
-db_url= "postgres://vmhovkeagfqtbt:ded625668492bd4bfdd46d78edf3e053ce88ba6bfca676b14681a49131029ef9@ec2-34-242-8-97.eu-west-1.compute.amazonaws.com:5432/d1hfrkid1ddo8o"
+db_url = "postgres://slgtbbdwcyosrz:e5e5c077cf2168a643e235fce38e54d1cabff725bf02e66cf33392ec9699213c@ec2-54-77-40-202.eu-west-1.compute.amazonaws.com:5432/d654n7sf24frle"

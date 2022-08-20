@@ -1,11 +1,7 @@
-from ast import main
-from crypt import methods
-from http import server
-import json
 import os
-from unicodedata import name
 import telebot
 import logging
+import psycopg2
 from config import *
 from flask import Flask , request
 
@@ -14,6 +10,9 @@ bot = telebot.TeleBot(bot_token)
 server = Flask (__name__)
 logger = telebot.logger
 logger = set.Level(logging.DEBUG)
+
+db_connection = psycopg2.connect(db_url, sslmode="require")
+db_object = db_connection.cursor()
 
 
 @bot.message_handler(commands=["start"])
